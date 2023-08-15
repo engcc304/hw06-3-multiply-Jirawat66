@@ -81,9 +81,9 @@ int main() {
     int start , end ; 
 
     printf("Enter the starting number: ") ;
-    scanf("%d" , start);
+    scanf("%d" , &start);
     printf("Enter the ending number: ") ;
-    scanf("%d" , end);
+    scanf("%d" , &end);
     
     for(int i = start; i <= end; i++) 
     {
